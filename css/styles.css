@@ -122,7 +122,12 @@ p  { color: var(--gris); }
   height: 72px;
 }
 
-.navbar__logo img { height: 42px; width: auto; }
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.navbar__logo img { height: 36px; width: auto; }
 .navbar__logo span {
   font-size: 1.5rem;
   font-weight: 900;

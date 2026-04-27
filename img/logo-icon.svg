@@ -1,0 +1,8 @@
+<svg viewBox="0 0 108 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Franja navy izquierda -->
+  <polygon fill="#1B3A6B" points="0,90 20,90 56,0 36,0"/>
+  <!-- Franja navy centro -->
+  <polygon fill="#1B3A6B" points="28,90 48,90 84,0 64,0"/>
+  <!-- Franja gris derecha (punta de flecha) -->
+  <polygon fill="#6B7280" points="58,90 78,90 108,28 88,28"/>
+</svg>
