@@ -148,7 +148,8 @@
         <div class="form-card">
           <h3>Formulario de presupuesto</h3>
 
-          <form id="contactForm" novalidate>
+          <form id="contactForm" name="contactForm" data-netlify="true" novalidate>
+            <input type="hidden" name="form-name" value="contactForm" />
             <div class="form-row">
               <div class="form-group">
                 <label for="nombre">Nombre *</label>
