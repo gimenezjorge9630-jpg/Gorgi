@@ -62,13 +62,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.12 });
 
+  // Group siblings so each group staggers independently
+  const animGroups = new Map();
   document.querySelectorAll('.dif-card, .servicio-card, .sector-item, .paso, .galeria-item')
     .forEach(el => {
+      const parent = el.parentElement;
+      if (!animGroups.has(parent)) animGroups.set(parent, []);
+      animGroups.get(parent).push(el);
+    });
+
+  animGroups.forEach(els => {
+    els.forEach((el, i) => {
       el.style.opacity = '0';
       el.style.transform = 'translateY(24px)';
-      el.style.transition = 'opacity .5s ease, transform .5s ease';
+      el.style.transition = `opacity .5s ease ${i * 0.1}s, transform .5s ease ${i * 0.1}s`;
       observer.observe(el);
     });
+  });
 
   // Cuando se hace visible
   const style = document.createElement('style');
