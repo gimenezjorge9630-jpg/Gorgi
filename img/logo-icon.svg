@@ -1,8 +1,11 @@
-<svg viewBox="0 0 108 95" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Franja navy izquierda -->
-  <polygon fill="#1B3A6B" points="0,90 20,90 56,0 36,0"/>
-  <!-- Franja navy centro -->
-  <polygon fill="#1B3A6B" points="28,90 48,90 84,0 64,0"/>
-  <!-- Franja gris derecha (punta de flecha) -->
-  <polygon fill="#6B7280" points="58,90 78,90 108,28 88,28"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 92">
+  <!-- Gray arrow (back/right) -->
+  <polygon points="48,6 102,6 102,60" fill="#6B7280"/>
+  <polygon points="40,88 52,88 91,49 79,49" fill="#6B7280"/>
+  <polygon points="56,88 68,88 99,57 87,57" fill="#6B7280"/>
+  <!-- Blue arrow (front/left) -->
+  <polygon points="34,6 88,6 88,60" fill="#1B3A6B"/>
+  <polygon points="3,88 15,88 63,40 51,40" fill="#1B3A6B"/>
+  <polygon points="20,88 32,88 74,46 62,46" fill="#1B3A6B"/>
+  <polygon points="37,88 49,88 82,55 70,55" fill="#1B3A6B"/>
 </svg>
