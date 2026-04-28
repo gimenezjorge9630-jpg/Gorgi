@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 92">
-  <!-- Gray arrow (back/right) -->
-  <polygon points="48,6 102,6 102,60" fill="#6B7280"/>
-  <polygon points="40,88 52,88 91,49 79,49" fill="#6B7280"/>
-  <polygon points="56,88 68,88 99,57 87,57" fill="#6B7280"/>
-  <!-- Blue arrow (front/left) -->
-  <polygon points="34,6 88,6 88,60" fill="#1B3A6B"/>
-  <polygon points="3,88 15,88 63,40 51,40" fill="#1B3A6B"/>
-  <polygon points="20,88 32,88 74,46 62,46" fill="#1B3A6B"/>
-  <polygon points="37,88 49,88 82,55 70,55" fill="#1B3A6B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 92">
+  <!-- Flecha gris (fondo, derecha) -->
+  <polygon points="45,5 100,5 100,60" fill="#6B7280"/>
+  <polygon points="43,88 53,88 91,50 81,50" fill="#6B7280"/>
+  <polygon points="57,88 67,88 98,58 88,58" fill="#6B7280"/>
+  <!-- Flecha azul (frente, izquierda) -->
+  <polygon points="25,5 80,5 80,60" fill="#1B3A6B"/>
+  <polygon points="2,88 12,88 60,40 50,40" fill="#1B3A6B"/>
+  <polygon points="16,88 26,88 67,47 57,47" fill="#1B3A6B"/>
+  <polygon points="30,88 40,88 74,54 64,54" fill="#1B3A6B"/>
 </svg>
