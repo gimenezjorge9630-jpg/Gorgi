@@ -129,7 +129,7 @@ p  { color: var(--gris); }
 }
 .navbar__logo img {
   height: 44px;
-  width: 44px;
+  width: 28px;
   object-fit: cover;
   object-position: left center;
   mix-blend-mode: multiply;
