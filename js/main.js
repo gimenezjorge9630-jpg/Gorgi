@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.textContent = 'Enviando...';
       btn.disabled = true;
 
-      fetch('/', {
+      fetch('https://formspree.io/f/mvzldylq', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(new FormData(form)).toString()
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
       })
         .then(() => {
           form.style.display = 'none';
