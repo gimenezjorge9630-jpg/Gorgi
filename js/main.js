@@ -44,11 +44,19 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.textContent = 'Enviando...';
       btn.disabled = true;
 
-      // Simula envío (aquí conectarías tu backend / EmailJS / Formspree)
-      setTimeout(() => {
-        form.style.display = 'none';
-        document.getElementById('formSuccess').style.display = 'block';
-      }, 1200);
+      fetch('https://formspree.io/f/mvzldylq', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      })
+        .then(() => {
+          form.style.display = 'none';
+          document.getElementById('formSuccess').style.display = 'block';
+        })
+        .catch(() => {
+          btn.textContent = 'Error al enviar. Llámanos al 673 950 478';
+          btn.disabled = false;
+        });
     });
   }
 
