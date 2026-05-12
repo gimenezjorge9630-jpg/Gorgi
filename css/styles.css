@@ -127,13 +127,7 @@ p  { color: var(--gris); }
   align-items: center;
   gap: .6rem;
 }
-.navbar__logo img {
-  height: 44px;
-  width: 28px;
-  object-fit: cover;
-  object-position: left center;
-  mix-blend-mode: multiply;
-}
+.navbar__logo img { height: 36px; width: auto; }
 .navbar__logo span {
   font-size: 1.5rem;
   font-weight: 900;
