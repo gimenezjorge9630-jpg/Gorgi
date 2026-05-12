@@ -127,7 +127,7 @@ p  { color: var(--gris); }
   align-items: center;
   gap: .6rem;
 }
-.navbar__logo img { height: 36px; width: auto; }
+.navbar__logo img { height: 36px; width: auto; mix-blend-mode: multiply; }
 .navbar__logo span {
   font-size: 1.5rem;
   font-weight: 900;
