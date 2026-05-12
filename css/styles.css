@@ -108,8 +108,7 @@ p  { color: var(--gris); }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: rgba(255,255,255,.97);
-  backdrop-filter: blur(10px);
+  background: #ffffff;
   border-bottom: 1px solid var(--gris-medio);
   transition: box-shadow .3s;
 }
@@ -127,7 +126,7 @@ p  { color: var(--gris); }
   align-items: center;
   gap: .6rem;
 }
-.navbar__logo img { height: 36px; width: auto; mix-blend-mode: multiply; }
+.navbar__logo img { height: 36px; width: auto; }
 .navbar__logo span {
   font-size: 1.5rem;
   font-weight: 900;
